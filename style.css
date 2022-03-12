@@ -44,13 +44,13 @@ border-radius: 15px 50px 30px 5px;
 	z-index: 1000; 
 	position: absolute;
   background-color: #0000;
-  border: #5D3FD3 inset 2px;
-  color: white;
+  border: #df2a2a inset 2px;
+  color: IndianRed;
 }
 #search-items {
 
   width: 80%;
-	height:200em;
+	height:250em;
 margin-left: auto;
 margin-right: auto;
   align-items: center;
@@ -61,7 +61,7 @@ margin-right: auto;
   width: 14vw;
   clip-path: border-box;
   margin: 0 auto;
-border-radius: 15px 50px 30px 5px;
+border-radius: 15px 50px 30px 0px;
 }
 img + a {
   display: block;
@@ -121,4 +121,12 @@ nav {
     letter-spacing: .2em;
     color: IndianRed;
     text-transform: uppercase;
+}
+
+.zoom105 {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }
